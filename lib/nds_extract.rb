@@ -74,9 +74,10 @@ def gross_per_studio(collection)
        else 
          gross[name] = current_gross
        end
-      binding.pry
+     
       count += 1 
     end
+    
     gross
     
   
