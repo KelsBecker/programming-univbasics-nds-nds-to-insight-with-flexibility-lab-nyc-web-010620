@@ -77,7 +77,7 @@ def gross_per_studio(collection)
      
       count += 1 
     end
-    
+    binding.pry
     gross
     
   
