@@ -71,7 +71,7 @@ def gross_per_studio(collection)
       if gross[collection[count][:studio]] 
          gross[collection[count][:studio]] += current_gross
        else 
-         gross[] = current_gross
+         gross[collection[count][:studio]] = current_gross
        end
      
       count += 1 
