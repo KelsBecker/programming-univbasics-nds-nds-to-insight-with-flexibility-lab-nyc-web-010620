@@ -65,7 +65,6 @@ def gross_per_studio(collection)
     gross = {}
     count = 0 
     while count < collection.length do
-     
       name = collection[count][:studio]
       current_gross = collection[count][:worldwide_gross]
       binding.pry
