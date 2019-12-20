@@ -69,6 +69,8 @@ def gross_per_studio(collection)
       name = collection[count][:studio]
       current_gross = collection[count][:worldwide_gross]
       gross[name] = current_gross
+      
+      if 
       #binding.pry
       count += 1 
     end
